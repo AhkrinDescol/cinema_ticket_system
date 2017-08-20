@@ -31,7 +31,7 @@ public class Menu
 	{
 		boolean keepMenuActive = true;
 		int choice;
-		displayWelcameText();
+		displayWelcomeText();
 		while (keepMenuActive)
 		{
 			choice = -1;
@@ -41,7 +41,7 @@ public class Menu
 		}
 	}
 	
-	private void displayWelcameText()
+	private void displayWelcomeText()
 	{
 		System.out.println("Welcome to the QA Cinemas ticket booking system!");
 	}
